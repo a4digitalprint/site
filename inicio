@@ -1,0 +1,711 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+<style>
+
+    body {
+    margin: 0;
+}
+
+ a{
+    text-decoration: none;
+}
+    
+  .entry-content a:not([class]),
+  .nv-comment-content a:not([class]),
+  .nv-template .neve-main a:not([class]),
+  .widget_text a:not([class]) {
+    --linkdeco: none;
+  }
+
+  /* Styles for the container div */
+  .caixa1 {
+    position: static;
+    height: 700px;
+    background-image: url("https://a4print.com.br/wp-content/uploads/2024/03/wallpaper-hp-1024x656-1.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -50px;
+  }
+
+  .caixa2 {
+
+    position: static;
+    height: 700px;
+    background-image: url("https://a4print.com.br/wp-content/uploads/2024/03/manutencao-a4-1024x683-1.webp");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .conteudo1 {
+    padding-top: 10%;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  /* Other styles */
+  .botao-contato {
+    margin: 40px 0px 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ee6b00;
+    font-family: "Helvetica", Sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    border: 1px solid white;
+    color: #fff;
+    padding: 10px 20px;
+
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+
+  .conteudo2 .sub-slogan {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .conteudo2 .slogan {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .sub-slogan {
+    color: #ffde01;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+    text-align: center;
+  }
+
+  .slogan {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-style: italic;
+    text-align: center;
+    width: -webkit-fill-available;
+  }
+
+  .divisao {
+    background-color: #ee6b00;
+    height: 10px;
+
+  }
+
+  .detalhes-a4 {
+    background-color: #3f4196;
+    color: white;
+    text-align: center;
+    padding: 100px;
+  }
+
+  .caixa3-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 75px 15% 0 15%;
+  }
+
+  .conteudo2 {
+    text-align: center;
+    flex: 1;
+  }
+
+  .linha {
+    background-color: #ffde01;
+    width: calc(100% - 40px);
+    height: 2px;
+    margin-left: 100px;
+  }
+
+  .caixa3 {
+    background-color: #1b252f;
+  }
+
+  .eq-container {
+    border: 0.1px solid #ddd;
+    /* Add a border for the container */
+  }
+
+  .eq-container,
+  .eq-container-ver {
+    width: 300px;
+    /* Set the width of the container */
+    background-color: #f0f0f000;
+    /* Background color for the container */
+
+    border-radius: 10px;
+    /* Round the corners of the container */
+    text-align: center;
+    /* Center-align the content */
+
+    margin: 50px;
+    margin-bottom: 75px;
+  }
+
+  .eq-image img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+  }
+
+  .eq-description {
+    padding: 20px;
+    /* Add padding to the description box */
+  }
+
+  .eq-titulo {
+    font-size: 18px;
+    /* Set the title font size */
+    margin: 0;
+    /* Remove margin to prevent spacing */
+    color: white;
+  }
+
+  .eq-desc {
+    font-size: 14px;
+    /* Set the description font size */
+    margin: 0;
+    /* Remove margin to prevent spacing */
+    color: white;
+  }
+
+  .caixa3>div.eq-grid {
+    margin-top: 75px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 0 15%;
+    justify-content: center;
+  }
+
+  .eq-container-ver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .botaovermais {
+    background-color: #ee6b00;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .caixa4 {
+    background-color: #3e54ba;
+    ;
+    padding-bottom: 80px;
+  }
+
+  .conteudo3 .slogan {
+    font-size: 40px;
+    text-align: left;
+    width: 280px;
+  }
+
+  .caixa4-1 {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .caixa5 {
+    position: relative;
+
+    width: 100%;
+    background-image: url("https://a4print.com.br/wp-content/uploads/2024/03/Loja-01-1024x519-1.webp");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .conteudo4 {
+    padding: 20% 0 20% 0;
+    background-color: rgba(0, 0, 0, 0.411);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .caixa6 {
+    background-color: #1b252f;
+    padding-bottom: 100px
+  }
+
+  #carousel-cliente-container {
+
+    display: flex;
+    margin: 0 auto;
+
+    border-radius: 8px;
+
+    padding: 20px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  /* Styles for individual reviews */
+  .carousel-cliente {
+    width: -webkit-fill-available;
+
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 10% 10px 10%;
+    display: none;
+    text-align: center;
+  }
+
+  .active {
+    display: block;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+
+  p.avaliacao {
+    color: #ffffff;
+    font-size: 1rem;
+    color: #ee6b00;
+  }
+
+  a.avaliacao {
+    color: #ffffff;
+    font-size: 1rem;
+    color: #eeea00;
+  }
+
+  .rating {
+    font-size: 1.2rem;
+    color: gold;
+  }
+
+  .caixa-aspas {
+    padding: 80px 0 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .aspas {
+    background-color: #ee6b00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+  }
+
+  .textsvg {
+    font-size: 100px;
+  }
+
+  .sub-slogan2 {
+    color: #ee6b00;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .slogan2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .valores-titulo {
+    font-size: 28px;
+    margin: 0;
+    color: white;
+  }
+
+  .valores-container {
+    width: 300px;
+    background-color: #f0f0f000;
+    height: 300px;
+
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 75px;
+  }
+
+  .eq-image>img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .caixa4>.eq-grid {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .caixa4>.eq-grid>* {
+    margin: 0 10px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    h2.avaliacao {
+      font-size: 17px;
+    }
+
+    .botaovermais,
+    .slogan,
+    .slogan2 {
+      font-family: sans-serif;
+    }
+
+    .conteudo3 .slogan {
+      font-size: 40px;
+      text-align: center;
+      max-width: 280px;
+    }
+
+    .caixa1 {
+      background-image: url(https://a4print.com.br/wp-content/uploads/2024/03/wall_vertical.webp);
+      background-repeat: no-repeat;
+      background-attachment: local;
+      position: static;
+      max-height: 70vh;
+    }
+
+    .caixa2 {
+      background-repeat: no-repeat;
+      background-position: -201px -1px;
+      background-size: 195%;
+      background-attachment: local;
+      max-height: 55vh;
+    }
+
+    .caixa5 {
+      background-repeat: no-repeat;
+      background-position: -239px -1px;
+      background-size: 240%;
+      background-attachment: local;
+      max-height: 55vh;
+    }
+
+    .eq-container,
+    .eq-container-ver {
+      max-width: 280px;
+      background-color: #f0f0f000;
+      border-radius: 10px;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 75px;
+      padding: 10px;
+    }
+
+    .slogan {
+      text-align: center;
+      font-size: 28px;
+      max-width: 250px;
+    }
+
+    p.slogan {
+      max-width: 280px;
+    }
+
+    .caixa3-1 {
+      display: flex;
+      align-items: center;
+      /* justify-content: space-around; */
+      padding: 75px 15% 0 15%;
+    }
+
+    .caixa4>.eq-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
+</style>
+
+<body>
+  <div class="caixa1">
+    <div class="conteudo1">
+      <p class="sub-slogan">Nós Somos</p>
+      <p class="slogan">A SUA MELHOR IMPRESSÃO</p>
+      <a href="https://a4print.com.br/contato/">
+        <button class="botao-contato">FALE CONOSCO >></button>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="divisao"></div>
+
+  <div class="caixa4">
+    <div class="caixa3-1">
+      <div class="conteudo3">
+        <p class="slogan">NOSSOS VALORES</p>
+      </div>
+      <div class="linha"></div>
+    </div>
+    <div class="eq-grid">
+      <div class="valores-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/melhoria-continua.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="valores-titulo">MELHORIA CONTÍNUA</h2>
+          <p class="eq-desc">Antenados no futuro. Não existe nada que não possa ser melhorado.</p>
+        </div>
+      </div>
+      <div class="valores-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/ambiental.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="valores-titulo">PREOCUPAÇÃO AMBIENTAL</h2>
+          <p class="eq-desc">Todo consumível utilizado é separado e encaminhado para descarte adequado.</p>
+        </div>
+      </div>
+      <div class="valores-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/respeito.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="valores-titulo">RESPEITO</h2>
+          <p class="eq-desc">Ética e transparência acima de tudo. Honramos nossos compromissos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="caixa4-1">
+      <a href="https://a4print.com.br/sobre/">
+        <button class="botaovermais">SOBRE >></button>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="divisao"></div>
+
+  <!--<div class="detalhes-a4"> DETALHES A4</div>-->
+  <!--<div class="divisao"></div>-->
+
+  <div class="caixa2">
+    <div class="conteudo1">
+      <p class="sub-slogan">Você Conhece Nossa Solução Em</p>
+      <p class="slogan">OUTSOURCING DE IMPRESSÃO?</p>
+      <a href="https://a4print.com.br/outsourcing-de-impressao/">
+        <button class="botao-contato">CONHECER >></button>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="divisao"></div>
+
+  <div class="caixa3">
+    <div class="caixa3-1">
+      <div class="conteudo2">
+        <p class="sub-slogan">Nossos</p>
+        <p class="slogan">EQUIPAMENTOS</p>
+      </div>
+      <div class="linha"></div>
+    </div>
+    <div class="eq-grid">
+      <a href="https://a4print.com.br/equipamentos/hp408/" class="eq-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/hp408.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="eq-titulo">HP 408dn</h2>
+          <p class="eq-desc">Impressora Laser Monocromática</p>
+        </div>
+      </a>
+
+      <a href="https://a4print.com.br/equipamentos/hp454/" class="eq-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/hp454.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="eq-titulo">HP Color LaserJet Pro M454</h2>
+          <p class="eq-desc">Impressora Laser Colorida</p>
+        </div>
+      </a>
+
+      <a href="https://a4print.com.br/equipamentos/hp428/" class="eq-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/hp428.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="eq-titulo">HP LaserJet Pro MFP M428</h2>
+          <p class="eq-desc">Multifuncional Laser Monocromática</p>
+        </div>
+      </a>
+
+
+      <a href="https://a4print.com.br/equipamentos/hp-e50145/" class="eq-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/hpe50145.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="eq-titulo">HP LaserJet E50145</h2>
+          <p class="eq-desc">Impressora Laser Monocromática</p>
+        </div>
+      </a>
+
+
+      <a href="https://a4print.com.br/equipamentos/hp479/" class="eq-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/hp479.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="eq-titulo">HP Color LaserJet M479FDW</h2>
+          <p class="eq-desc">Multifuncional Laser Colorida</p>
+        </div>
+      </a>
+
+
+      <a href="https://a4print.com.br/equipamentos/hp432/" class="eq-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/hp432.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="eq-titulo">HP LaserJet 432FDN</h2>
+          <p class="eq-desc">Multifuncional Laser Monocromática</p>
+        </div>
+      </a>
+
+
+      <a href="https://a4print.com.br/equipamentos/hpe52645/" class="eq-container">
+        <div class="eq-image">
+          <img decoding="async" src="https://a4print.com.br/wp-content/uploads/2024/03/hpe52645.webp"
+            alt="Image Description" width="300" height="200">
+        </div>
+        <div class="eq-description">
+          <h2 class="eq-titulo">HP LaserJet E52645</h2>
+          <p class="eq-desc">Multifuncional Laser Monocromática</p>
+        </div>
+      </a>
+
+
+      <!-- Repeat the .eq-container elements as needed -->
+      <a href="https://a4print.com.br/equipamentos/" class="eq-container-ver">
+        <button class="botaovermais">Ver Mais >></button>
+      </a>
+
+
+    </div>
+  </div>
+
+  <div class="divisao"></div>
+
+  <div class="caixa5">
+    <div class="conteudo4">
+      <p class="sub-slogan">Localizada Dentro Da Universidade Unisul</p>
+      <p class="slogan">CONHEÇA NOSSA GRÁFICA</p>
+      <button class="botao-contato">CONHECER >></button>
+    </div>
+  </div>
+
+  <div class="divisao"></div>
+
+  <div class="caixa6">
+
+
+
+    <div class="caixa-aspas">
+      <div class="aspas">
+        <svg class="aspas-svg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+          <text class="textsvg" x="50" y="110" text-anchor="middle" fill="#000">&#8221;</text>
+        </svg>
+      </div>
+    </div>
+
+    <p class="sub-slogan2">Nossos Clientes Acreditam Em Nós</p>
+    <p class="slogan2">O QUE ESTÃO DIZENDO SOBRE</p>
+    <!---------------------->
+    <div id="carousel-cliente-container">
+      <div class="carousel-cliente">
+        <h2 class="avaliacao">“Utilizo o serviço de outsourcing de impressão a anos e sempre obtive um excelente
+          atendimento."</h2>
+        <p class="avaliacao">João Neves</p>
+        <a class="avaliacao">Coordenador de T.I</a>
+      </div>
+      <div class="carousel-cliente">
+        <h2 class="avaliacao">“Sempre que necessito de um serviço de impressão, sempre pude confiar na gráfica digital
+          da A4."</h2>
+        <p class="avaliacao">Augusto Ribeiro</p>
+        <a class="avaliacao">Coordenador de T.I</a>
+      </div>
+      <div class="carousel-cliente">
+        <h2 class="avaliacao">“A locação de impressoras da A4 sempre me surpreende, sempre com novidades em hardware e
+          software, estão sempre antenados no futuro."</h2>
+        <p class="avaliacao">Raul Silva</p>
+        <a class="avaliacao">Cliente</a>
+      </div>
+
+
+    </div>
+    <!---------------------->
+  </div>
+
+</body>
+
+
+<script>
+  const carouselcliente = document.querySelectorAll('.carousel-cliente');
+  let currentIndexcliente = 0;
+
+  function showNextCarousel() {
+    carouselcliente[currentIndexcliente].classList.remove('active');
+    currentIndexcliente = (currentIndexcliente + 1) % carouselcliente.length;
+    carouselcliente[currentIndexcliente].classList.add('active');
+    carouselcliente[(currentIndexcliente + 1) % carouselcliente.length].classList.add('active');
+  }
+
+  setInterval(showNextCarousel, 5000);
+  showNextCarousel();
+
+</script>
